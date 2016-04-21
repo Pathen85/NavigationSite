@@ -63,7 +63,8 @@ body {
 	margin-bottom: 0;
 }
 
-@media only screen and (max-width : 650px) {
+
+@media only screen and (max-width : 480px) {
 	/* Smartphone and Tablet view: 2 tiles */
 	.corporate img {
 		width: 80%;
@@ -78,7 +79,7 @@ body {
 	}
 }
 
-@media only screen and (max-width : 1050px) and (min-width : 651px) {
+@media only screen and (max-width : 650px) and (min-width : 481px) {
 	/* Small desktop / ipad view: 3 tiles */
 	.box {
 		width: 33.3%;
@@ -86,10 +87,18 @@ body {
 	}
 }
 
-@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
 	/* Medium desktop: 4 tiles */
 	.box {
 		width: 25%;
 		padding-bottom: 25%;
+	}
+}
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+	/* Large desktop: 5 tiles */
+	.box {
+		width: 20%;
+		padding-bottom: 20%;
 	}
 }
