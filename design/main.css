@@ -6,7 +6,7 @@ body {
 }
 
 .corporate {
-	background-color: rgb(1, 69, 150);
+	background-color: #004594;
 	margin-bottom: 1.5%;
 	padding: 1% 0;
 }
@@ -17,7 +17,7 @@ body {
 
 .corporate .shadow {
 	padding: 10px;
-	background-color: rgb(16, 51, 119);
+	background-color: #103377;
 	position: absolute;
 	left: 0;
 	right: 0;
